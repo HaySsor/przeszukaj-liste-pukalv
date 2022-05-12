@@ -1,0 +1,15 @@
+h1, h2 {
+  font-family: Lato;
+}
+
+.contat{
+  transform: translateX(0);
+  transition: transform 1s;
+  
+}
+
+.hide{
+  transition: transform 1s;
+  transform: translateX(100vw);
+}
+
