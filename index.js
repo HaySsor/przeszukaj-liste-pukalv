@@ -7,12 +7,12 @@ const contacts = document.querySelectorAll('[data-contact]');
 const fillterList = (input, contact) => {
   contact.forEach((cont) => {
     const match = new RegExp(input.value, 'i').test(cont.textContent);
+    const parentDiv = cont.parentElement.parentElement
     if (!match) {
-      const parentDiv = cont.parentElement.parentElement
       parentDiv.classList.add('hide')
       
     } else {
-      const parentDiv = cont.parentElement.parentElement
+      
       parentDiv.classList.remove('hide')
     }
   });
