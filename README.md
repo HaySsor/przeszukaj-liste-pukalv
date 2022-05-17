@@ -19,3 +19,4 @@ Twoje zadania:
 Punkty bonusowe:
 1. Dodaj animację znikania dla kontaktów, które nie pasują do frazy wyszukiwania
 2. Dodaj animację pojawiania się dla kontaktow, ktore ponownie pasują do frazy wyszukiwania
+3. live https://stackblitz.com/edit/przeszukaj-liste-pukalv?file=index.js
